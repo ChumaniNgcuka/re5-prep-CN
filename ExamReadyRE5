@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RE5 Exam Preparation | Pass with Confidence</title>
+  <meta name="description" content="RE5 exam prep: 3 focused lessons (1 hour each) for only R500. Scenario-based practice, strategies, and study materials. Online via Microsoft Teams or your preferred platform. Book via WhatsApp or email." />
+  <meta property="og:title" content="RE5 Exam Preparation | Pass with Confidence" />
+  <meta property="og:description" content="3 focused lessons (1 hour each) for R500. Scenario practice, strategies, and materials. Book via WhatsApp or email." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_ZA" />
+  <style>
+    :root{
+      --navy:#0b3d91;
+      --teal:#0fb6b2;
+      --gold:#f4b400;
+      --ink:#1f2a37;
+      --muted:#64748b;
+      --bg:#f7f9fc;
+      --white:#ffffff;
+      --shadow:0 10px 30px rgba(17,24,39,0.08);
+      --radius:14px;
+    }
+
+    /* Base */
+    html,body{margin:0;padding:0}
+    body{
+      font-family: "Segoe UI", Roboto, Inter, system-ui, -apple-system, Arial, sans-serif;
+      color:var(--ink);
+      background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);
+      line-height:1.6;
+    }
+    .container{max-width:1080px;margin:0 auto;padding:24px}
+    h1,h2,h3{line-height:1.2;margin:0 0 12px}
+    h1{font-size:clamp(28px,4vw,44px);font-weight:800;color:var(--navy)}
+    h2{font-size:clamp(22px,3vw,30px);font-weight:800;color:var(--ink)}
+    h3{font-size:clamp(18px,2.4vw,22px);font-weight:700;color:var(--ink)}
+    p{margin:0 0 12px}
+    .muted{color:var(--muted)}
+    .tag{
+      display:inline-block;background:rgba(11,61,145,0.08);color:var(--navy);
+      border:1px solid rgba(11,61,145,0.18);padding:6px 10px;border-radius:999px;
+      font-weight:700;letter-spacing:.3px;text-transform:uppercase;font-size:12px;
+    }
+
+    /* Header / Hero */
+    header{
+      background:
+        radial-gradient(1200px 600px at 100% -100%, rgba(244,180,0,0.08), transparent 60%),
+        radial-gradient(1200px 600px at -20% 0%, rgba(15,182,178,0.12), transparent 60%),
+        linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+      border-bottom:1px solid #eef2f7;
+    }
+    .hero{
+      display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center;
+      padding:36px 0;
+    }
+    .card{
+      background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);
+      padding:22px;
+    }
+    .badge{
+      display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;
+      background:linear-gradient(90deg, rgba(11,61,145,.08), rgba(15,182,178,.08));
+      color:var(--ink);font-weight:700;font-size:13px;border:1px solid #e6ecf6;
+    }
+    .price{
+      display:flex;align-items:baseline;gap:10px;margin:10px 0 0;
+    }
+    .price .big{font-size:40px;font-weight:900;color:var(--navy)}
+    .price .small{font-weight:700;color:var(--muted)}
+
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 18px;border-radius:12px;border:0;cursor:pointer;
+      text-decoration:none;font-weight:800;letter-spacing:.2px;
+      box-shadow:0 6px 18px rgba(11,61,145,.15); transition:.2s transform ease, .2s box-shadow ease;
+    }
+    .btn:hover{transform:translateY(-2px); box-shadow:0 10px 24px rgba(11,61,145,.2)}
+    .btn-primary{background:linear-gradient(90deg,var(--navy),#0f4db8);color:#fff}
+    .btn-secondary{background:#eaf8f8;color:#075e5c;border:1px solid #c7eeee}
+    .btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy)}
+    .pill{padding:8px 12px;border-radius:999px;background:#fff1cc;color:#8b5b00;font-weight:700;border:1px solid #ffe29a}
+
+    /* Sections */
+    section{padding:28px 0}
+    .grid{
+      display:grid;gap:18px;
+    }
+    .grid-3{grid-template-columns:repeat(3,1fr)}
+    .grid-2{grid-template-columns:repeat(2,1fr)}
+    .feat{
+      border-left:4px solid var(--teal);
+    }
+    .feat h3{margin-bottom:8px}
+    .feat p{margin:0}
+    .list{display:grid;gap:10px}
+    .list li{list-style:none;display:flex;gap:10px;align-items:flex-start}
+    .check{width:22px;height:22px;border-radius:6px;background:#e6faf9;border:1px solid #c8eeec;display:inline-flex;align-items:center;justify-content:center;color:#0a6f6b;font-weight:900}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--gold);margin-top:8px;flex-shrink:0}
+
+    /* Testimonials */
+    .quote{
+      background:linear-gradient(180deg,#ffffff 0%, #fff9e8 100%);
+      border:1px solid #ffe29a;border-radius:var(--radius);padding:18px
+    }
+    .quote p{margin:0}
+    .who{margin-top:10px;font-weight:700;color:#8b5b00}
+
+    /* Footer */
+    footer{
+      padding:28px 0;border-top:1px solid #eef2f7;background:#ffffff;color:var(--muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container hero">
+      <div>
+        <span class="tag">RE5 Exam Preparation</span>
+        <h1>Pass with Confidence — Learn from a Compliance Pro</h1>
+        <p class="muted">Three focused lessons that turn the FAIS framework into clear, exam‑ready action. Practical, scenario‑based, and affordable.</p>
+        <div class="price">
+          <span class="big">R500</span>
+          <span class="small">for 3× 1‑hour lessons • Online via Microsoft Teams</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://wa.me/27614277911?text=Hi%20Chumani%2C%20I%27d%20like%20to%20book%20the%20RE5%20prep%20(3%20lessons%20for%20R500)." aria-label="Chat on WhatsApp to book">
+            Book on WhatsApp
+          </a>
+          <a class="btn btn-secondary" href="mailto:Chumanistevengcuka@gmail.com?subject=RE5%20Prep%20Booking&body=Hi%20Chumani%2C%0A%0AI%27d%20like%20to%20enrol%20for%20the%20RE5%20prep.%20Please%20share%20available%20dates.%0A%0AName%3A%0APreference%20(Teams%20or%20other)%3A%0A" aria-label="Email to book">
+            Email to Enrol
+          </a>
+          <span class="pill">Limited slots weekly</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="badge">What you get</div>
+        <ul class="list" style="margin-top:12px">
+          <li><span class="check">✓</span><div><strong>3 focused lessons:</strong> core RE5 topics and high‑yield areas</div></li>
+          <li><span class="check">✓</span><div><strong>Scenario practice:</strong> apply rules to real‑world cases</div></li>
+          <li><span class="check">✓</span><div><strong>Exam strategies:</strong> timing, traps, and recall techniques</div></li>
+          <li><span class="check">✓</span><div><strong>Study materials:</strong> quick‑reference guides and checklists</div></li>
+          <li><span class="check">✓</span><div><strong>Platform:</strong> Microsoft Teams (or your preferred tool)</div></li>
+          <li><span class="check">✓</span><div><strong>Support:</strong> Q&A in every session with instant feedback</div></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>How it works</h2>
+      <div class="grid grid-3">
+        <div class="feat card">
+          <h3>1. Book</h3>
+          <p><strong>Choose your slot:</strong> weekday evenings or Saturday mornings. Confirmation within 24 hours.</p>
+        </div>
+        <div class="feat card">
+          <h3>2. Learn</h3>
+          <p><strong>Three sessions:</strong> structured teaching + scenario drills + live Q&A. Hosted on Teams.</p>
+        </div>
+        <div class="feat card">
+          <h3>3. Practice</h3>
+          <p><strong>Materials included:</strong> checklists, summaries, and practice items to lock in retention.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why choose this prep</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <ul class="list">
+            <li><span class="dot"></span><div><strong>Proven approach:</strong> scenario‑based learning aligned to FAIS requirements</div></li>
+            <li><span class="dot"></span><div><strong>Clarity:</strong> complex rules explained simply and accurately</div></li>
+            <li><span class="dot"></span><div><strong>Focus:</strong> only the exam‑relevant content you need to pass</div></li>
+          </ul>
+        </div>
+        <div class="quote">
+          <p>“Clear, structured, and practical. I finally understood how to apply the rules to real questions.”</p>
+          <div class="who">— Recent RE5 Candidate</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What we’ll cover</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Session 1</h3>
+          <p class="muted">Fit & Proper overview, roles and responsibilities, key definitions, ethics.</p>
+        </div>
+        <div class="card">
+          <h3>Session 2</h3>
+          <p class="muted">FAIS General Code of Conduct: disclosures, advice, record‑keeping, conflicts.</p>
+        </div>
+        <div class="card">
+          <h3>Session 3</h3>
+          <p class="muted">Complaints, Ombud, reporting, cancellations, waivers + full scenario drills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Book your spot</h2>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/27614277911" style="color:var(--navy);text-decoration:none;border-bottom:2px solid #cfe2ff">+27 61 427 7911</a></p>
+      <p><strong>Email:</strong> <a href="mailto:Chumanistevengcuka@gmail.com" style="color:var(--navy);text-decoration:none;border-bottom:2px solid #cfe2ff">Chumanistevengcuka@gmail.com</a></p>
+      <p class="muted" style="margin-top:8px">Cape Town • Online nationwide via Microsoft Teams or your preferred platform</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>RE5 Exam Preparation</strong> — R500 for 3× 1‑hour lessons • Affordable, focused, and effective.</p>
+      <p>© <span id="y"></span> Chumani. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
